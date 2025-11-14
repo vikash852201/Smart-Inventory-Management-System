@@ -79,6 +79,7 @@ Smart-Inventory-Management-System
 │── Product.java
 │── ProductDAO.java
 │── DBConnection.java
+│── schema.sql
 └── README.md
 ```
 
@@ -99,10 +100,18 @@ Use **NetBeans**, **IntelliJ IDEA**, or **Eclipse**.
 
 ### 3️⃣ Create MySQL Database
 
-```sql
-CREATE DATABASE smart_inventory;
-USE smart_inventory;
-```
+Import the schema (quick)
+
+From the folder that contains schema.sql run:
+
+# as root (or a user with create DB privileges)
+mysql -u root -p < schema.sql
+
+
+If you already created the DB earlier, you can import only data / sample_data part:
+
+mysql -u root -p inventory_new < schema.sql
+
 
 Import tables manually or run SQL scripts (if available).
 
