@@ -158,5 +158,3 @@ GitHub: [@vikash852201](https://github.com/vikash852201)
 
 This project is licensed under the **MIT License**.
 
-
-Just tell me!
