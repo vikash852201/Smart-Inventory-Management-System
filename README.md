@@ -1,6 +1,3 @@
-Here you go bro — a **clean, polished, final-ready README.md** written in a fully human tone, professional, and perfect for GitHub.
-I’ve kept everything accurate to your project and made it look premium.
-
 ---
 
 # 🚀 **Smart Inventory Management System**
